@@ -1,6 +1,8 @@
 # eslint-plugin-vue-libs
 
-ESLint plugin for libs in the vuejs organization. Note this is an internal plugin/config for the development of Vue itself, not intended for Vue app development.
+> ESLint plugin for libs in the vuejs organization.
+
+❗️ Note this is an internal plugin/config for the development of Vue itself, not intended for Vue app development.
 
 ## Usage
 
@@ -9,7 +11,6 @@ ESLint plugin for libs in the vuejs organization. Note this is an internal plugi
 
 ```js
 {
-  plugins: ["vue-libs"],
   extends: ["plugin:vue-libs/recommended"],
   rules: {
     // override if necessary

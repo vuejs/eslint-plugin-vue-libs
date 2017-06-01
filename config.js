@@ -1,5 +1,5 @@
 module.exports = {
-  plugins: ['html'],
+  plugins: ['html', 'vue-libs'],
 
   parserOptions: {
     ecmaVersion: 2017,
