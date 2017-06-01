@@ -2,7 +2,7 @@
 
 > ESLint plugin for libs in the vuejs organization.
 
-❗️ Note this is an internal plugin/config for the development of Vue itself, not intended for Vue app development.
+:exclamation: Note this is an internal plugin/config for the development of Vue itself, not intended for Vue app development.
 
 ## Usage
 
