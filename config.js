@@ -1,4 +1,6 @@
 module.exports = {
+  plugins: ['html'],
+
   parserOptions: {
     ecmaVersion: 6,
     ecmaFeatures: {
@@ -12,8 +14,6 @@ module.exports = {
     es6: true,
     node: true
   },
-
-  plugins: ['vue'],
 
   globals: {
     document: false,
@@ -136,6 +136,6 @@ module.exports = {
     'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
     'object-curly-spacing': [2, 'always', { objectsInObjects: false }],
     'array-bracket-spacing': [2, 'never'],
-    'vue/jsx-uses-vars': 2
+    'vue-libs/jsx-uses-vars': 2
   }
 }
