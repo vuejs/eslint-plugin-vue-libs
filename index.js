@@ -5,6 +5,7 @@ module.exports = {
     recommended: require('./config')
   },
   rules: {
-    'jsx-uses-vars': require('./rules/jsx-uses-vars')
+    'jsx-uses-vars': require('./rules/jsx-uses-vars'),
+    'no-async-functions': require('./rules/no-async-functions')
   }
 }
