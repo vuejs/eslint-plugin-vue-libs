@@ -1,12 +1,10 @@
 module.exports = {
-  plugins: ['html', 'vue-libs'],
+  extends: ['plugin:vue/essential'],
+  plugins: ['vue-libs'],
 
   parserOptions: {
+    parser: require.resolve('babel-eslint'),
     ecmaVersion: 2017,
-    ecmaFeatures: {
-      experimentalObjectRestSpread: true,
-      jsx: true
-    },
     sourceType: 'module'
   },
 
@@ -136,6 +134,7 @@ module.exports = {
     'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
     'object-curly-spacing': [2, 'always', { objectsInObjects: false }],
     'array-bracket-spacing': [2, 'never'],
-    'vue-libs/jsx-uses-vars': 2
+    'vue-libs/jsx-uses-vars': 2,
+    'vue/require-v-for-key': 0
   }
 }
