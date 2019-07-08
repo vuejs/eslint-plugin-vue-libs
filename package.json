@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-vue-libs",
-  "version": "3.0.2",
+  "version": "4.0.0",
   "description": "eslint plugin for vue.js projects",
   "main": "index.js",
   "repository": {
